@@ -1,0 +1,8 @@
+Changes
+Elf.pm
+Elf.xs
+Makefile.PL
+MANIFEST
+README
+test.pl
+bin/elfhash

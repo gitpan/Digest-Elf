@@ -1,0 +1,12 @@
+#!/usr/local/bin/perl
+
+use ExtUtils::testlib;
+use Digest::Elf;
+
+for( @ARGV )
+{
+	print Digest::Elf::hash( $_ ), "\n";
+}
+
+exit(0);
+
