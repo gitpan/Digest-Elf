@@ -27,7 +27,7 @@ our @EXPORT = qw(
 	
 );
 
-$VERSION = sprintf( "%s", q{$Id: Elf.pm,v 1.3 2002/05/15 23:08:19 steve Exp $} =~ /(\d+\.\d+)/ );
+$VERSION = sprintf( "%s", q{$Id: Elf.pm,v 1.4 2003/06/27 04:18:47 steve Exp $} =~ /(\d+\.\d+)/ );
 
 bootstrap Digest::Elf $VERSION;
 
@@ -49,11 +49,11 @@ Digest::Elf - Perl extension for generating ElfHash values.
 
 Digest::Elf is an implimentation of the ElfHash algorithm.
 
-=head2 FUNCTIONS
+=head1 FUNCTIONS
 
 =item elf( VALUE )
 
-	Create a hash value based on the input value.
+Create a hash value based on the input value.
 
 =head1 AUTHOR
 
@@ -61,6 +61,7 @@ Steve McKay, E<lt>steve@colgreen.comE<gt>
 
 =head1 SEE ALSO
 
-L<perl>.
+=item Digest::MD5
 
 =cut
+

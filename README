@@ -1,11 +1,12 @@
-Digest/Elf version 0.01
+Digest::Elf version 1.4
 =======================
 
 Digest::Elf provides an XS based implimentation of the ElfHash algorithm.
-What's that get ya? ElfHash generates resonably unique values from a string
-in a reasonably short period of time. I culled the actual algorith from a 
-Dr. Dobbs Journal article, they culled it from (I think) the source for the
-GNU c complier. If you know better, please let me know.
+What's that get ya? ElfHash generates resonably 32 bit integer value 
+from a string in a reasonably short period of time. The actual algorith
+was culled from a Dr. Dobbs Journal article and they culled it, I think,
+from the source for the GNU c complier. If you know better, please let
+me know.
 
 INSTALLATION
 
@@ -18,5 +19,6 @@ To install this module type the following:
 
 DEPENDENCIES
 
-This module requires a fully operational battle station...er, uh, c compiler.
+This module requires a fully operational battle station, and a working
+install of the gnu c compiler.
 
